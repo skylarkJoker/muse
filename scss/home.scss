@@ -1,0 +1,137 @@
+@import url(https://fonts.googleapis.com/css?family=Lovers+Quarrel);
+@import "partials/variables";
+
+body {
+  background-image: url("../img/wood.jpg");
+  color           : $white;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: inherit;
+  }
+}
+
+.fullWidth {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: initial;
+}
+
+.content {
+  background-color: rgba(0, 0, 0, 0.5);
+
+  // box-shadow      : 0 0 10px #555;
+  padding         : 1em;
+  color           : $white;
+  border          : solid;
+  border-width    : thin;
+  border-color    : rgba(190, 190, 190, 0.2);
+}
+
+.blog-header {
+  text-align : center;
+  font-size  : 6em;
+  font-family: 'Lovers Quarrel', cursive;
+
+  a {
+    color: $white;
+  }
+}
+
+.feature-articles {
+  color              : $white;
+  height             : 12em;
+  margin-bottom      : 2em;
+
+  // box-shadow         : 0 0 10px #888;
+  background-position: center;
+  background-repeat  : no-repeat;
+}
+
+.featured-article-heading {
+  color: #fff;
+}
+
+.sub-block {
+  padding         : 1em;
+  position        : absolute;
+  bottom          : 31px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width           : 470px;
+}
+
+.article-title {
+  float      : left;
+  font-weight: bold;
+}
+
+.more-content {
+  text-align: right;
+}
+
+.sidebar {
+  h5 {
+    text-align    : center;
+    text-transform: uppercase;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+  padding-left: 2em;
+}
+
+
+
+.footer-articles {
+  background-color: rgba(0, 0, 0, 0.8);
+  color           : $white;
+  padding         : 2em 0;
+  margin-bottom   : 1em;
+
+  a {
+    color: #ffba21;
+
+    &:hover {
+      color: #f4821a;
+    }
+  }
+
+  li {
+    list-style: none;
+  }
+
+  img {
+    border      : solid;
+    border-color: $white;
+    border-width: thin;
+  }
+
+  hr {
+    margin: 0 0 1em;
+  }
+
+  h3,
+  h5 {
+    color: #fff;
+  }
+}
+
+footer {
+  p {
+    text-align: center;
+  }
+}
+
+.card-article {
+  margin-bottom: 2em;
+}

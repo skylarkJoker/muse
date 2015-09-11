@@ -1,0 +1,24 @@
+@import "scss/partials/variables";
+
+.social {
+  list-style: none;
+  display   : inline;
+
+  i {
+    font-size: 36px;
+    color: $white;
+  }
+
+  li {
+    float       : left;
+    margin-right: 1em;
+  }
+}
+
+textarea {
+  resize: none;
+}
+
+.desc {
+  padding-top: 1em;
+}
